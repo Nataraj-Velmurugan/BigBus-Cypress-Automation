@@ -1,0 +1,27 @@
+{
+  "name": "bigbus-cypress-automation",
+  "version": "1.0.0",
+  "description": "Automate the Big Bus Tours website using the most advanced automation testing tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "start": "node_modules\\.bin\\cypress run",
+    "headed": "npm start -- --headed",
+    "chrome-headed": "npm start -- --headed --no-exit --spec \"cypress/integration/test_suites/HomePage/*\"" 
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataraj-Velmurugan/BigBus-Cypress-Automation.git"
+  },
+  "author": "Nataraj Velmurugan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataraj-Velmurugan/BigBus-Cypress-Automation/issues"
+  },
+  "homepage": "https://github.com/Nataraj-Velmurugan/BigBus-Cypress-Automation#readme",
+  "dependencies": {
+    "cypress": "^7.4.0"
+  }
+}
